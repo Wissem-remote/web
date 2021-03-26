@@ -1,6 +1,6 @@
 
 #!/usr/bin/ruby
-puts = ARGV
+
 nb = ARGV.first.to_i
 
 
