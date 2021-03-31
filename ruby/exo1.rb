@@ -8,7 +8,7 @@ end
 case arg
 when 0 then puts "c'est un carractaire"
 when 1..30 then 1.upto(arg){ |n| printf "%#{arg+arg+1}s","# "*n +"\n" }
-when 30.. then puts "desoler votre chiffre est tros haut"
+when 31.. then puts "desoler votre chiffre est tros haut"
 end
 
 
